@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form Controls</title>
+</head>
+<body>
+    <header>
+        <h1>Simple Form Controls</h1>
+        <nav>
+            <a href="https://kostadin-krastev.github.io/HW/">Начало</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <h2>Регистрация</h2>
+        <form action="registration.py" method="get">
+            <fieldset>
+                <legend>Лични данни</legend>
+                <!-- input field for name and last name -->
+                <section>
+                    <label for="first-name">Име:</label>
+                    <input type="text" id="first-name" name="userName" placeholder="малко име, на латиница" required autofocus>
+                </section>
+                <section>
+                    <label for="last-name">Име:</label>
+                    <input type="text" id="last-name" name="userSurName" placeholder="фамилия, на латиница" required>
+                </section>
+                <!-- gender choosing radio buttons -->
+                <section>
+                    <label>Пол:</label>
+                    <label for="male">мъж:</label>
+                    <input type="radio" id="male" name="gender" value="m" required>
+                    <label for="female">жена:</label> 
+                    <input type="radio" id="female" name="gender" value="f" required>
+                </section>
+            </fieldset>
+            <!-- input field for comments -->
+            <section>
+                <label>Коментар:</label>
+                <br>
+                <textarea name="comment" id="" cols="22" rows="2" placeholder="напишете ни нещо" required></textarea>
+            </section>
+            <button type="submit">Изпрати</button>
+        </form>
+    </main>
+</body>
+</html>
