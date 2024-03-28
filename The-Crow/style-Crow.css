@@ -5,8 +5,7 @@ html, body {
 
 /* Shaping the background image and color*/
 div {
-    width: 100%;
-    height: 100%;
+    min-height: 100%;
     background-image: url(./crow-1002849.jpg);
     background-color: #b07f1d;
     background-size: cover;
