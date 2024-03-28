@@ -1,11 +1,15 @@
 html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
     font-family: "serif", "sans-serif";
    
 }
 
 /* Shaping the background image and color*/
 div {
-    min-height: 100%;
+    width: 100%;
+    height: 100%;
     background-image: url(./crow-1002849.jpg);
     background-color: #b07f1d;
     background-size: cover;
