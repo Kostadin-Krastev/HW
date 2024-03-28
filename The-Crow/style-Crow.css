@@ -6,10 +6,9 @@ html, body {
 
 /* Shaping the background */
 div {
-    background-image: url(/The-Crow/crow-1002849.jpg);
+    background-image: url(./crow-1002849.jpg);
     background-color: #b07f1d;
     background-size: cover;
-    /* background-position: center; */
     background-repeat: no-repeat;
     border-top: 10px solid #B0893B;
     border-right: 10px solid #5C471E;
