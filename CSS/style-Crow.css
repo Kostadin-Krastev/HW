@@ -2,7 +2,7 @@ html,
 body,
 div {
   font-family: "serif", "sans-serif";
-  height: 100%;
+  min-height: 100%;
 }
 
 /* Shaping the background image and color*/
@@ -19,6 +19,7 @@ div {
 /* Shaping the poem */
 article {
   width: 50%;
+  font-size: 40px;
 }
 
 h1 {
