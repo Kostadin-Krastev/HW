@@ -1,0 +1,66 @@
+html,
+body,
+div {
+  font-family: "serif", "sans-serif";
+  min-height: 100%;
+}
+
+/* Shaping the background image and color*/
+div {
+  background: #b07f1d url(../images/crow-1002849.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 10px solid #b0893b;
+  border-right: 10px solid #5c471e;
+  border-bottom: 10px solid #5c471e;
+  border-left: 10px solid #b0893b;
+}
+
+/* Shaping the poem */
+article {
+  width: 50%;
+}
+
+h1 {
+  color: #f4c76c;
+  font-size: 35px;
+  margin-bottom: 3px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+article p {
+  color: #fff;
+  text-indent: 5%;
+}
+
+/* Targeting the text in quotation marks and the phrase "nobody else" */
+q {
+  letter-spacing: 2px;
+  font-style: italic;
+}
+
+span {
+  border-bottom: 3px solid #d9910c;
+}
+
+/* Footer section */
+footer {
+  border-top: 10px double #b07f1d;
+}
+
+.author-bio {
+  color: #f4c76c;
+  margin-top: 0;
+}
+
+.source {
+  font-weight: bold;
+}
