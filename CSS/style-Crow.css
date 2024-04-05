@@ -3,6 +3,7 @@ body,
 div {
   font-family: "serif", "sans-serif";
   height: 100%;
+  box-sizing: border-box;
 }
 
 /* Shaping the background image and color*/
