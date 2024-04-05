@@ -2,7 +2,6 @@ html,
 body,
 div {
   font-family: "serif", "sans-serif";
-  font-size: 40px;
   height: 100%;
 }
 
@@ -24,17 +23,12 @@ article {
 
 h1 {
   color: #f4c76c;
-  font-size: 80px;
   margin-bottom: 3px;
 }
 
 h1,
 h2 {
   text-align: center;
-}
-
-h2 {
-  font-size: 60px;
 }
 
 article p {
