@@ -2,11 +2,12 @@ html,
 body {
   font-family: "serif", "sans-serif";
   /* font-size: 40px; */
+  height: 100%;
 }
 
 /* Shaping the background image and color*/
 div {
-  background-size: 100% 100%;
+  background-size: 100%;
   background: #b07f1d url(../images/crow-1002849.jpg);
   background-size: cover;
   background-repeat: no-repeat;
