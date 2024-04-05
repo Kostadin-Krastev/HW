@@ -2,13 +2,12 @@ html,
 body,
 div {
   font-family: "serif", "sans-serif";
-  /* font-size: 40px; */
+  font-size: 40px;
   height: 100%;
 }
 
 /* Shaping the background image and color*/
 div {
-  /* background-size: 100%; */
   background: #b07f1d url(../images/crow-1002849.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,7 +24,7 @@ article {
 
 h1 {
   color: #f4c76c;
-  font-size: 35px;
+  font-size: 80px;
   margin-bottom: 3px;
 }
 
@@ -35,7 +34,7 @@ h2 {
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 60px;
 }
 
 article p {
