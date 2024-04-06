@@ -1,0 +1,41 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+nav {
+  background-color: #555555;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  box-shadow: 0 0 0 2px #8fbd90, 0 0 0 4px #e89679;
+  height: 2rem;
+  width: 5rem;
+  background-color: #ffe5c5;
+}
+
+a {
+  color: #706863;
+}
+
+nav,
+ul {
+  display: flex;
+}
+
+li,
+.about {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.about {
+  box-shadow: 0 0 0 2px #8fbd90, 0 0 0 4px #b0c5de;
+  font-size: 25px;
+}
