@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  background-color: #fdafb1;
+}
+
+header,
+footer {
+  height: 10vh;
+  margin: 1em;
+  text-align: center;
+  color: #fff;
+  background-color: #98d1c7;
+}
+
+aside,
+article {
+  margin: 1em;
+}
+
+article {
+  display: flex;
+  background-color: #fa7a7b;
+}
+
+aside {
+  width: 30%;
+  height: 70vh;
+  background-color: #62b7b6;
+}
+
+img {
+  background-color: #d6d5d5;
+}
