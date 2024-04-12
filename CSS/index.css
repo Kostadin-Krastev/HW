@@ -1,0 +1,38 @@
+main {
+  width: 80vw;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #fcfbf0;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+nav {
+  margin: 0 auto;
+}
+
+nav > ul {
+  margin: 0 auto;
+}
+
+nav > ul > li {
+  float: left;
+  width: 33.3%;
+  cursor: pointer;
+}
+
+nav > ul > li > strong {
+  display: block;
+  padding: 1em 0;
+  text-align: center;
+  background-color: #555;
+  color: #dedede;
+}
+
+nav > ul > li:hover > strong {
+  color: #fff;
+}
