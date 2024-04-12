@@ -1,17 +1,23 @@
-html,
-body {
-  margin: 0;
-  padding: 0;
-  font-size: 20px;
+main {
+  margin: 0 10vw;
+  min-height: 100vh;
+  padding: 1em;
+  font-size: 1.2em;
   background-color: #fdafb1;
 }
 
+p {
+  font-size: 2em;
+  text-align: center;
+  color: #fff;
+}
+
+/* Configurating the different semantic sections and their positions */
 header,
 footer {
   height: 10vh;
   margin: 1em;
   text-align: center;
-  color: #fff;
   background-color: #98d1c7;
 }
 
@@ -21,16 +27,63 @@ article {
 }
 
 article {
-  display: flex;
+  position: absolute;
+  top: 15.2vh;
+  left: 38vw;
+  width: 47vw;
+  height: 70vh;
   background-color: #fa7a7b;
 }
 
 aside {
-  width: 30%;
+  width: 25vw;
   height: 70vh;
   background-color: #62b7b6;
 }
 
-img {
+/* Configurating the images */
+div {
+  width: 12vw;
+  height: 20vh;
   background-color: #d6d5d5;
+}
+
+.left-img {
+  left: 3vw;
+}
+
+.mid-img {
+  left: 18vw;
+}
+
+.right-img {
+  left: 33vw;
+}
+
+.left-img,
+.mid-img,
+.right-img {
+  position: absolute;
+  top: 47vh;
+}
+
+/* Adjusting the hight of the paragraphs */
+.header {
+  padding: 3vh 0;
+}
+
+.aside {
+  padding: 31vh 0;
+}
+
+.article {
+  padding: 31vh 0;
+}
+
+.img {
+  padding: 6vh 0;
+}
+
+.footer {
+  padding: 3vh 0;
 }
