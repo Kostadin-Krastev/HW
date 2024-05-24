@@ -25,6 +25,7 @@ h1 {
 }
 
 nav {
+  text-align: center;
   margin: 50px 50px;
   background-color: #e64a19;
 }
@@ -38,6 +39,10 @@ nav ul {
 
 nav ul li {
   display: inline-block;
+  font-size: 24px;
+  line-height: 40px;
+  padding: 5px;
+  border: 1px solid #000;
   background-color: #e64a19;
 }
 
@@ -58,7 +63,7 @@ nav a:hover {
 nav ul ul {
   display: none;
   position: absolute;
-  top: 60px; /* the height of the main nav */
+  top: 54px; /* the height of the main nav */
 }
 
 /* Display Dropdowns on Hover */
