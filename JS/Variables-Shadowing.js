@@ -13,5 +13,5 @@ var foo = function () {
   console.log("x in foo = ", x); //2
 };
 
-foo(); // undefine
+foo(); // 2
 console.log("x in main = ", x); // "x in main = ", 1
